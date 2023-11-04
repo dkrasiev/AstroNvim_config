@@ -12,6 +12,8 @@ return {
   { import = "astrocommunity.git.blame-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
 
+  { import = "astrocommunity.motion.mini-surround" },
+
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
