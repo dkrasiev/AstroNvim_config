@@ -9,6 +9,9 @@ return {
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
 
+  { import = "astrocommunity.git.blame-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
+
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
