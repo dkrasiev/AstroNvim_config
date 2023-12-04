@@ -22,8 +22,12 @@ end
 
 return {
   "goolord/alpha-nvim",
-  opts = function(_, opts)
-    opts.section.header.val = get_header()
-    return opts
-  end,
+  -- opts = function(_, opts) opts.section.header.val = get_header() end,
+  opts = {
+    section = {
+      header = {
+        val = get_header(),
+      },
+    },
+  },
 }
