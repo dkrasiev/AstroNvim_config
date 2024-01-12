@@ -22,7 +22,7 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
 
-  { import = "astrocommunity/utility/noice-nvim" },
+  -- { import = "astrocommunity/utility/noice-nvim" },
 
   { import = "astrocommunity/editing-support/rainbow-delimiters-nvim" },
 }
